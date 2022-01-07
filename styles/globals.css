@@ -24,3 +24,10 @@ body.night {
   background-color: var(--night);
   color: var(--light);
 }
+
+/* page container */
+.container {
+  /* width: 100vw;
+  padding-left: 10vw;
+  padding-right: 10vw; */
+}
