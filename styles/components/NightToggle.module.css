@@ -4,24 +4,25 @@
   height: 30px;
   width: 60px;
   padding: 5px;
-  background-color: var(--bg-night);
+  background-color: var(--night);
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .boxNight {
-  background-color: var(--bg-light);
+  background-color: var(--light);
 }
 
 /* toggle button */
 .buttonLight, .buttonNight {
-  cursor: pointer;
   height: 100%;
   width: 30px;
   border-radius: 50%;
   transition: all 0.3s;
-  background-color: var(--bg-light);
+  background-color: var(--light);
 }
 
 .buttonNight {
-  background-color: var(--bg-night);
+  background-color: var(--night);
+  transform: translate(100%);
 }

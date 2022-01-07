@@ -8,21 +8,19 @@ body {
 
 /* css variables */
 :root {
-  /* light mode variables */
-  --bg-light: #F4F4ED;
-  --text-light: #110B11;
-  /* night mode variables */
-  --bg-night: #110B11;
-  --text-night: #F4F4ED;
+  /* light mode variable */
+  --light: #F4F4ED;
+  /* night mode variable */
+  --night: #110B11;
 }
 
 /* light mode is default */
 body {
-  background-color: var(--bg-light);
-  color: var(--text-light);
+  background-color: var(--light);
+  color: var(--night);
 }
 
 body.night {
-  background-color: var(--bg-night);
-  color: var(--text-night);
+  background-color: var(--night);
+  color: var(--light);
 }

@@ -5,22 +5,24 @@ import React, { FunctionComponent, useState } from "react";
 import styles from "../styles/components/NightToggle.module.css";
 
 const NightToggle: FunctionComponent = () => {
-  const [light, setLight] = useState(true)
+  // stores view mode state
+  const [view, setView] = useState(true)
 
   // changes view mode upon click
   const handleViewMode = ():void => {
-    setLight(!light)
+    setView(!view)
     const body: HTMLBodyElement | null = document.querySelector('body')
     if (body) body.classList.toggle("night")
   }
 
   return (
     <div
-      className= {light ? styles.boxLight : styles.boxNight}
+    aria-label="toggle night mode"
+      className= {view ? styles.boxLight : styles.boxNight}
+      onClick={():void => handleViewMode()}
     >
       <div
-        className={light ? styles.buttonLight : styles.buttonNight}
-        onClick={():void => handleViewMode()}
+        className={view ? styles.buttonLight : styles.buttonNight}
       />
     </div>
   );
