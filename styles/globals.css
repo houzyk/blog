@@ -1,14 +1,15 @@
 /* css variables */
 :root {
-  /* light mode */
+  /* light mode variables */
   --bg-light: #F4F4ED;
   --text-light: #110B11;
-  /* night mode */
+  /* night mode variables */
   --bg-night: #110B11;
   --text-night: #F4F4ED;
 }
 
-body.light {
+/* light mode is default */
+body {
   background-color: var(--bg-light);
   color: var(--text-light);
 }
