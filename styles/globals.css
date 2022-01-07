@@ -1,0 +1,19 @@
+/* css variables */
+:root {
+  /* light mode */
+  --bg-light: #F4F4ED;
+  --text-light: #110B11;
+  /* night mode */
+  --bg-night: #110B11;
+  --text-night: #F4F4ED;
+}
+
+body.light {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+body.night {
+  background-color: var(--bg-night);
+  color: var(--text-night);
+}
