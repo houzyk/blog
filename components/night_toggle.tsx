@@ -1,5 +1,5 @@
 // react
-import React, { FunctionComponent, useState} from "react";
+import React, { FunctionComponent } from "react";
 
 // css
 import styles from "../styles/components/NightToggle.module.css";
@@ -14,9 +14,12 @@ const NightToggle: FunctionComponent = () => {
 
   return (
     <div
-    className="night-toggle"
-    onClick={():void => handleViewMode()}>
-      {/* todo */}
+      className= {styles.toggleBox}
+    >
+      <div
+        className={styles.button}
+        onClick={():void => handleViewMode()}
+      />
     </div>
   );
 }
