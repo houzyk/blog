@@ -17,11 +17,11 @@ const NightToggle: FunctionComponent = () => {
 
   return (
     <div
-    aria-label="toggle night mode"
-      className= {view ? styles.boxLight : styles.boxNight}
-      onClick={():void => handleViewMode()}
+    className= {view ? styles.boxLight : styles.boxNight}
+    onClick={():void => handleViewMode()}
     >
       <div
+        aria-label={view ? "toggle night mode" : "toggle light mode"}
         className={view ? styles.buttonLight : styles.buttonNight}
       />
     </div>
