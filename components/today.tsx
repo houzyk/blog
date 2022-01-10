@@ -14,9 +14,11 @@ const Today: FunctionComponent = () => {
   if (dateToday.getMonth() < 9) month = 0 + month
 
   return (
-    <p>
+    <time
+      dateTime={String(dateToday)}
+    >
       {day}/{month}/{dateToday.getFullYear()}
-    </p>
+    </time>
   );
 }
 
