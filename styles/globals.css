@@ -1,12 +1,19 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 /* css reset */
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--light);
+  color: var(--night);
 }
 
-/* css variables */
+/* * css variables */
+/* colors */
 :root {
   /* light mode variable */
   --light: #F4F4ED;
@@ -14,12 +21,7 @@ body {
   --night: #110B11;
 }
 
-/* light mode is default */
-body {
-  background-color: var(--light);
-  color: var(--night);
-}
-
+/* light mode as default */
 body.night {
   background-color: var(--night);
   color: var(--light);
