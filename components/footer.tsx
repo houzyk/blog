@@ -12,7 +12,7 @@ const Footer: FunctionComponent = () => {
   return (
     <footer className={styles.footer}>
       <NightToggle />
-      <Today/>
+      <Today />
     </footer>
   );
 }
