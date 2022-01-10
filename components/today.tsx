@@ -10,8 +10,8 @@ const Today: FunctionComponent = () => {
   let day: string = `${dateToday.getDate()}`
   if (dateToday.getDate() < 9) day = 0 + day
 
-  let month: string = `0${dateToday.getMonth() + 1}`
-  if (dateToday.getMonth() > 9) month = 0 + month
+  let month: string = `${dateToday.getMonth() + 1}`
+  if (dateToday.getMonth() < 9) month = 0 + month
 
   return (
     <p>
