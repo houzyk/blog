@@ -4,11 +4,13 @@ import React, { FunctionComponent } from "react"
 // css
 import styles from "../styles/components/Date.module.css"
 
-const Date: FunctionComponent = () => {
+const Today: FunctionComponent = () => {
+  const dateToday: Date = new Date()
   return (
-    <>
-    </>
+    <p>
+      {dateToday.getDate()}/{dateToday.getMonth() + 1}/{dateToday.getFullYear()}
+    </p>
   );
 }
 
-export default Date
+export default Today

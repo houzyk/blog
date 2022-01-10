@@ -6,11 +6,13 @@ import styles from "../styles/components/Footer.module.css";
 
 // components
 import NightToggle from "./night_toggle";
+import Today from "./date";
 
 const Footer: FunctionComponent = () => {
   return (
     <footer className={styles.footer}>
       <NightToggle />
+      <Today/>
     </footer>
   );
 }
