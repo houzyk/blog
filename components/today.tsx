@@ -19,7 +19,7 @@ const Today: FunctionComponent = () => {
     >
       {day}/{month}/{dateToday.getFullYear()}
     </time>
-  );
+  )
 }
 
 export default Today

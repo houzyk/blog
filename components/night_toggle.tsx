@@ -1,8 +1,8 @@
 // react
-import React, { FunctionComponent, useState } from "react";
+import React, { FunctionComponent, useState } from "react"
 
 // css
-import styles from "../styles/components/NightToggle.module.css";
+import styles from "../styles/components/NightToggle.module.css"
 
 const NightToggle: FunctionComponent = () => {
   // stores view mode state
@@ -28,4 +28,4 @@ const NightToggle: FunctionComponent = () => {
   );
 }
 
-export default NightToggle;
+export default NightToggle

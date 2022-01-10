@@ -18,7 +18,7 @@ const Navbar: FunctionComponent = () => {
         the-philosophical-code
       </div>
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

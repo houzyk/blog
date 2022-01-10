@@ -1,12 +1,12 @@
 // next
-import type { NextPage } from "next";
-import Head from "next/head";
+import type { NextPage } from "next"
+import Head from "next/head"
 
 // css
-import styles from "../styles/pages/Article.module.css";
+import styles from "../styles/pages/Article.module.css"
 
 // components
-import Navbar from "../components/navbar";
+import Navbar from "../components/navbar"
 
 const KeepItDry: NextPage = () => {
   return (
@@ -16,7 +16,7 @@ const KeepItDry: NextPage = () => {
       </Head>
       <Navbar/>
     </>
-  );
+  )
 }
 
-export default KeepItDry;
+export default KeepItDry
