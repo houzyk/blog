@@ -2,7 +2,7 @@
 import React, { FunctionComponent } from "react"
 
 // css
-import styles from "../styles/components/Date.module.css"
+import styles from "../styles/components/Today.module.css"
 
 const Today: FunctionComponent = () => {
   const dateToday: Date = new Date()
