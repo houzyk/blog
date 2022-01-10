@@ -25,7 +25,7 @@ const NightToggle: FunctionComponent = () => {
         className={view ? styles.buttonLight : styles.buttonNight}
       />
     </div>
-  );
+  )
 }
 
 export default NightToggle

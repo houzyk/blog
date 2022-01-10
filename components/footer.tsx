@@ -14,7 +14,7 @@ const Footer: FunctionComponent = () => {
       <NightToggle />
       <Today />
     </footer>
-  );
+  )
 }
 
 export default Footer;
