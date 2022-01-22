@@ -14,7 +14,6 @@ const KeepItDry: NextPage = () => {
       <Head>
         <title>Keep It Dry</title>
       </Head>
-      <Navbar/>
     </>
   )
 }

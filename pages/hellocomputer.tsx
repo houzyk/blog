@@ -14,7 +14,6 @@ const HelloComputer: NextPage = () => {
       <Head>
         <title>Hello, Computer!</title>
       </Head>
-      <Navbar/>
     </>
   )
 }
